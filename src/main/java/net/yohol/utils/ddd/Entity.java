@@ -2,6 +2,11 @@ package net.yohol.utils.ddd;
 
 import java.io.Serializable;
 
+/**
+ * 实体
+ * @author Jo
+ *
+ */
 public abstract class Entity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String id;
